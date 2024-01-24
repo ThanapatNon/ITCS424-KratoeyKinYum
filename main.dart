@@ -29,7 +29,7 @@ class Content extends StatelessWidget {
         Counter('Kitiphum Mueangthongkham'),
         Counter('6488128'),
         Counter('Thanapat Nonpassopon'),
-        Counter('Measuring air pollution'),
+        Counter('HIWKAO Nearby Restaurant Search'),
         Counter('6488051, 6488106, 6488123, 6488128'),
       ],
     );
