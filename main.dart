@@ -8,13 +8,12 @@ class App extends StatelessWidget {
     return Directionality(
       textDirection: TextDirection.ltr,
       child: Container(
-        padding: EdgeInsets.symmetric(
-          vertical: 60.0,
-          horizontal: 80.0,
-        ),
-        color: Color(0xFFFFFFFF),
-        child: Content()
-      ),
+          padding: EdgeInsets.symmetric(
+            vertical: 60.0,
+            horizontal: 80.0,
+          ),
+          color: Color(0xFFFFFFFF),
+          child: Content()),
     );
   }
 }
@@ -24,6 +23,8 @@ class Content extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        Counter('6488051'),
+        Counter('Purinat Pattanakeaw'),
         Counter('6488128'),
         Counter('Thanapat Nonpassopon'),
         Counter('Measuring air pollution'),
