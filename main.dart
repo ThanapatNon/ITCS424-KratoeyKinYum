@@ -25,6 +25,8 @@ class Content extends StatelessWidget {
       children: [
         Counter('6488051'),
         Counter('Purinat Pattanakeaw'),
+Counter('6488106'),
+        Counter('Ratsorn Thananannathinee'),
         Counter('6488123'),
         Counter('Kitiphum Mueangthongkham'),
         Counter('6488128'),
